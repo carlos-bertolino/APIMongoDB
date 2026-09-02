@@ -16,34 +16,26 @@ Manutenção no cadastro de Produtos:
 4. Excluir
 ## API Reference
 
-#### Get all items
+#### Listar todos os produtos
 
 ```http
-  GET /api/items
+  GET /api/produtos
 ```
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
+| `None` | `None` | Lista todos os produtos |
 
-#### Get item
+#### Consultar um produto especifico
 
 ```http
-  GET /api/items/${id}
+  GET /api/produtos/${id}
 ```
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
 | `id`      | `string` | **Required**. Id of item to fetch |
 
-#### add(num1, num2)
-
-Takes two numbers and returns the sum.
-
-
-## Appendix
-
-Any additional information goes here
 
 
 ## Authors

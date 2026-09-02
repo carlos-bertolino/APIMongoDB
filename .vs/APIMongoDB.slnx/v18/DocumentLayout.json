@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "README.md",
               "ToolTip": "C:\\Users\\carlos\\source\\repos\\APIMongoDB\\README.md",
               "RelativeToolTip": "README.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2026-09-02T19:56:40.862Z",
               "EditorCaption": ""
@@ -103,8 +103,7 @@
               "RelativeToolTip": "Controllers\\ProdutoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T12:50:37.62Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-02T12:50:37.62Z"
             },
             {
               "$type": "Document",

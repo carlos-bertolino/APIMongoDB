@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\carlos\\source\\repos\\APIMongoDB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{663A6AA1-7335-4D50-BDAC-859152E0ADBB}|APIMongoDB.csproj|c:\\users\\carlos\\source\\repos\\apimongodb\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{663A6AA1-7335-4D50-BDAC-859152E0ADBB}|APIMongoDB.csproj|solutionrelative:controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD37AF56-6DF7-CC86-E9BE-0A506D7B0C5B}|APIMongoDB.csproj|c:\\users\\carlos\\source\\repos\\apimongodb\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{FD37AF56-6DF7-CC86-E9BE-0A506D7B0C5B}|APIMongoDB.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{663A6AA1-7335-4D50-BDAC-859152E0ADBB}|APIMongoDB.csproj|c:\\users\\carlos\\source\\repos\\apimongodb\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{663A6AA1-7335-4D50-BDAC-859152E0ADBB}|APIMongoDB.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD37AF56-6DF7-CC86-E9BE-0A506D7B0C5B}|APIMongoDB.csproj|c:\\users\\carlos\\source\\repos\\apimongodb\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD37AF56-6DF7-CC86-E9BE-0A506D7B0C5B}|APIMongoDB.csproj|solutionrelative:controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{663A6AA1-7335-4D50-BDAC-859152E0ADBB}|APIMongoDB.csproj|c:\\users\\carlos\\source\\repos\\apimongodb\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{663A6AA1-7335-4D50-BDAC-859152E0ADBB}|APIMongoDB.csproj|solutionrelative:services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD37AF56-6DF7-CC86-E9BE-0A506D7B0C5B}|APIMongoDB.csproj|c:\\users\\carlos\\source\\repos\\apimongodb\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD37AF56-6DF7-CC86-E9BE-0A506D7B0C5B}|APIMongoDB.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{663A6AA1-7335-4D50-BDAC-859152E0ADBB}|APIMongoDB.csproj|c:\\users\\carlos\\source\\repos\\apimongodb\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{663A6AA1-7335-4D50-BDAC-859152E0ADBB}|APIMongoDB.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD37AF56-6DF7-CC86-E9BE-0A506D7B0C5B}|APIMongoDB.csproj|c:\\users\\carlos\\source\\repos\\apimongodb\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD37AF56-6DF7-CC86-E9BE-0A506D7B0C5B}|APIMongoDB.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{663A6AA1-7335-4D50-BDAC-859152E0ADBB}|APIMongoDB.csproj|c:\\users\\carlos\\source\\repos\\apimongodb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{663A6AA1-7335-4D50-BDAC-859152E0ADBB}|APIMongoDB.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD37AF56-6DF7-CC86-E9BE-0A506D7B0C5B}|APIMongoDB.csproj|c:\\users\\carlos\\source\\repos\\apimongodb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD37AF56-6DF7-CC86-E9BE-0A506D7B0C5B}|APIMongoDB.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{663A6AA1-7335-4D50-BDAC-859152E0ADBB}|APIMongoDB.csproj|c:\\users\\carlos\\source\\repos\\apimongodb\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{663A6AA1-7335-4D50-BDAC-859152E0ADBB}|APIMongoDB.csproj|solutionrelative:models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD37AF56-6DF7-CC86-E9BE-0A506D7B0C5B}|APIMongoDB.csproj|c:\\users\\carlos\\source\\repos\\apimongodb\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD37AF56-6DF7-CC86-E9BE-0A506D7B0C5B}|APIMongoDB.csproj|solutionrelative:services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{663A6AA1-7335-4D50-BDAC-859152E0ADBB}|APIMongoDB.csproj|c:\\users\\carlos\\source\\repos\\apimongodb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{663A6AA1-7335-4D50-BDAC-859152E0ADBB}|APIMongoDB.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{FD37AF56-6DF7-CC86-E9BE-0A506D7B0C5B}|APIMongoDB.csproj|c:\\users\\carlos\\source\\repos\\apimongodb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FD37AF56-6DF7-CC86-E9BE-0A506D7B0C5B}|APIMongoDB.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD37AF56-6DF7-CC86-E9BE-0A506D7B0C5B}|APIMongoDB.csproj|c:\\users\\carlos\\source\\repos\\apimongodb\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD37AF56-6DF7-CC86-E9BE-0A506D7B0C5B}|APIMongoDB.csproj|solutionrelative:models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\carlos\\source\\repos\\APIMongoDB\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\carlos\\source\\repos\\APIMongoDB\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-09-02T19:56:40.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\carlos\\source\\repos\\APIMongoDB\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
@@ -50,8 +67,7 @@
               "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T18:01:07.603Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-02T18:01:07.603Z"
             },
             {
               "$type": "Document",
@@ -63,8 +79,7 @@
               "RelativeToolTip": "WeatherForecast.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T17:58:04.242Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-02T17:58:04.242Z"
             },
             {
               "$type": "Document",
@@ -76,25 +91,24 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T12:53:17.438Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-02T12:53:17.438Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProdutoController.cs",
               "DocumentMoniker": "C:\\Users\\carlos\\source\\repos\\APIMongoDB\\Controllers\\ProdutoController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProdutoController.cs",
               "ToolTip": "C:\\Users\\carlos\\source\\repos\\APIMongoDB\\Controllers\\ProdutoController.cs",
               "RelativeToolTip": "Controllers\\ProdutoController.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAwEcAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-02T12:50:37.62Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ProdutoService.cs",
               "DocumentMoniker": "C:\\Users\\carlos\\source\\repos\\APIMongoDB\\Services\\ProdutoService.cs",
               "RelativeDocumentMoniker": "Services\\ProdutoService.cs",
@@ -102,8 +116,7 @@
               "RelativeToolTip": "Services\\ProdutoService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T12:48:32.105Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-02T12:48:32.105Z"
             },
             {
               "$type": "Document",
@@ -115,12 +128,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-02T12:46:33.567Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-02T12:46:33.567Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Produto.cs",
               "DocumentMoniker": "C:\\Users\\carlos\\source\\repos\\APIMongoDB\\Models\\Produto.cs",
               "RelativeDocumentMoniker": "Models\\Produto.cs",
@@ -128,8 +140,7 @@
               "RelativeToolTip": "Models\\Produto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T12:45:27.599Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-02T12:45:27.599Z"
             }
           ]
         }
