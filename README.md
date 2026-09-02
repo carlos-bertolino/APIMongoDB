@@ -1,16 +1,19 @@
 
 # APIMongoDB
 
-Projeto de testes WebAPI(C#)+MongoDB(NoSQL)
+Projeto de testes:
+
+ - WebAPI(C#).
+ - MongoDB(NoSQL).
+ - Documentação API com Swagger.
 
 ## Recursos
-## Acknowledgements
 
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-
-
+Manutenção no cadastro de Produtos:
+1. Inserir
+2. Consultar
+3. Editar
+4. Excluir
 ## API Reference
 
 #### Get all items
@@ -46,5 +49,4 @@ Any additional information goes here
 ## Authors
 
 - [@carlos-bertolino](https://www.github.com/carlos-bertolino)
-
 
