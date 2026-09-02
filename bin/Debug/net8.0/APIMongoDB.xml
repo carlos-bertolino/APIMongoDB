@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>APIMongoDB</name>
+    </assembly>
+    <members>
+        <member name="M:APIMongoDB.Controllers.ProdutosController.Buscar(System.String)">
+            <summary>
+            Obtém o produto pelo ID 
+            </summary>
+            <param name="id">O identificador único do produto.</param>
+            <returns>Os detalhes do produto encontrado.</returns>
+            <response code="200">Retorna o produto solicitado.</response>
+            <response code="404">Se o produto não for encontrado.</response>
+        </member>
+        <member name="M:APIMongoDB.Controllers.ProdutosController.Inserir(APIMongoDB.Models.Produto)">
+             <summary>
+             Permite cadastrar um produto novo.
+             </summary>
+             <remarks>
+             Exemplo de requisição enviado no corpo do POST (Body):
+             
+                 POST /api/produtos
+                 {
+                    "nome": "Smartphone 5G",
+                    "preco": 2499.90,
+                    "estoque": 50,
+                    "descricao": "Aparelho celular com tela de 6.7 polegadas e 128GB"
+                 }
+            
+             </remarks>
+             <param name="produto">Os dados cadastrais do novo produto.</param>
+             <returns>O produto cadastrado com seu ID gerado.</returns>
+             <response code="201">Produto cadastrado com sucesso.</response>
+             <response code="400">Se as informações enviadas no JSON forem inválidas.</response>
+             <response code="500">Se ocorrer um erro interno no servidor ao tentar salvar.</response>
+        </member>
+        <member name="T:APIMongoDB.WeatherForecast">
+            <summary>
+            Representa os dados de uma previsão do tempo.
+            </summary>
+        </member>
+        <member name="P:APIMongoDB.WeatherForecast.Date">
+            <summary>
+            A data em que a previsão foi calculada.
+            </summary>
+            <example>2026-09-02</example>
+        </member>
+        <member name="P:APIMongoDB.WeatherForecast.TemperatureC">
+            <summary>
+            Temperatura medida em graus Celsius.
+            </summary>
+            <example>25</example>
+        </member>
+        <member name="P:APIMongoDB.WeatherForecast.TemperatureF">
+            <summary>
+            Temperatura convertida automaticamente para Fahrenheit.
+            </summary>
+            <example>77</example>
+        </member>
+        <member name="P:APIMongoDB.WeatherForecast.Summary">
+            <summary>
+            Descrição textual sobre a sensação do clima.
+            </summary>
+            <example>Ensolarado</example>
+        </member>
+    </members>
+</doc>
