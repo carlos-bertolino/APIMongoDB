@@ -4,7 +4,7 @@ using MongoDB.Driver;
 
 namespace APIMongoDB.Services
 {
-    public class ProdutoService
+    public class ProdutoService : IProdutoService
     {
         private readonly IMongoCollection<Produto> _produtos;
 
@@ -105,6 +105,20 @@ namespace APIMongoDB.Services
                 .DeleteOneAsync(x => x.Id == id);
 
             return resultado.DeletedCount > 0;
+        }
+
+
+
+        // O restante do seu código atual continua igual aqui dentro...
+
+        public async Task<Produto?> ObterPorId(string id)
+        {
+            return null;
+        }
+
+        public async Task<bool> AtualizarEstoque(string id, int quantidadeSubtrair)
+        {
+            return false;
         }
     }
 }

@@ -1,5 +1,8 @@
+using APIMongoDB.Models;
 using APIMongoDB.Services;
 using Asp.Versioning;
+using MongoDB.Driver;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -51,6 +54,25 @@ builder.Services.AddSwaggerGen(options =>
     var xmlFilename = $"{System.Reflection.Assembly.GetExecutingAssembly().GetName().Name}.xml";
     options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFilename));
 });
+
+
+// 1. Captura as configurações do appsettings.json
+var connectionString = builder.Configuration.GetValue<string>("MongoDbSettings:ConnectionString");
+var databaseName = builder.Configuration.GetValue<string>("MongoDbSettings:DatabaseName");
+
+// 2. Registra o IMongoClient como Singleton (Recomendado pelo MongoDB)
+builder.Services.AddSingleton<IMongoClient>(_ => new MongoClient(connectionString));
+
+// 3. Registra o IMongoDatabase para ser injetado nos Services
+builder.Services.AddScoped<IMongoDatabase>(sp =>
+{
+    var client = sp.GetRequiredService<IMongoClient>();
+    return client.GetDatabase(databaseName);
+});
+
+// 4. Injeção de dependência dos seus serviços de negócio
+builder.Services.AddScoped<IProdutoService, ProdutoService>(); // Sua classe atual de produtos
+builder.Services.AddScoped<IPedidoService, PedidoService>();
 
 var app = builder.Build();
 

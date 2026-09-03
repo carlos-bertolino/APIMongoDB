@@ -35,6 +35,57 @@
              <response code="400">Se as informações enviadas no JSON forem inválidas.</response>
              <response code="500">Se ocorrer um erro interno no servidor ao tentar salvar.</response>
         </member>
+        <member name="M:APIMongoDB.Controllers.v2.PedidosController.Criar(APIMongoDB.Models.CriarPedidoInputModel)">
+             <summary>
+             Registra um novo pedido de compra no sistema.
+             </summary>
+             <remarks>
+             Exemplo de envio de JSON (Body):
+             
+                 POST /api/pedidos
+                 {
+                    "clienteId": "64f1a2b3c4d5e6f7a8b9c0a1",
+                    "itens": [
+                       {
+                          "produtoId": "64f1a2b3c4d5e6f7a8b9c0d1",
+                          "quantidade": 2
+                       },
+                       {
+                          "produtoId": "64f1a2b3c4d5e6f7a8b9c0d2",
+                          "quantidade": 1
+                       }
+                    ]
+                 }
+            
+             </remarks>
+             <param name="input">Objeto contendo o cliente e os itens do pedido.</param>
+             <returns>O pedido gerado com valores calculados e ID gerado pelo MongoDB.</returns>
+             <response code="201">Pedido finalizado e gerado com sucesso.</response>
+             <response code="400">Se algum produto não possuir estoque suficiente ou for inválido.</response>
+        </member>
+        <member name="M:APIMongoDB.Controllers.v2.PedidosController.ObterPorId(System.String)">
+             <summary>
+             Recupera os detalhes de um pedido específico pelo seu ID.
+             </summary>
+             <remarks>
+             Exemplo de requisição:
+             
+                 GET /api/pedidos/64f1a2b3c4d5e6f7a8b9c0a1
+            
+             </remarks>
+             <param name="id">O identificador único do pedido (ID gerado pelo MongoDB).</param>
+             <returns>Os dados detalhados do pedido encontrado.</returns>
+             <response code="200">Retorna o pedido solicitado com todos os seus itens e valor total calculado.</response>
+             <response code="404">Se o ID informado não corresponder a nenhum pedido no banco de dados.</response>
+        </member>
+        <member name="M:APIMongoDB.Controllers.v2.ProdutosController.Listar">
+            <summary>
+            Lista de todos os produtos
+            </summary>
+            <returns>Listagem de todos os produtos cadastrados.</returns>
+            <response code="200">Retorna a lista de  produtos cadastrados.</response>
+            <response code="404">Se o produto não for encontrado.</response>
+        </member>
         <member name="M:APIMongoDB.Controllers.v2.ProdutosController.Buscar(System.String)">
             <summary>
             Obtém o produto pelo ID 
@@ -65,6 +116,67 @@
              <response code="201">Produto cadastrado com sucesso.</response>
              <response code="400">Se as informações enviadas no JSON forem inválidas.</response>
              <response code="500">Se ocorrer um erro interno no servidor ao tentar salvar.</response>
+        </member>
+        <member name="M:APIMongoDB.Controllers.v2.ProdutosController.Alterar(System.String,APIMongoDB.Models.Produto)">
+             <summary>
+             Atualiza as informações de um produto existente pelo ID.
+             </summary>
+             <remarks>
+             Exemplo de JSON para enviar no corpo da requisição (Body):
+             
+                 PUT /api/produtos/64f1a2b3c4d5e6f7a8b9c0d1
+                 {
+                    "nome": "Teclado Mecânico RGB (Atualizado)",
+                    "preco": 389.90,
+                    "estoque": 25,
+                    "descricao": "Teclado mecânico com switches novos e iluminação customizável."
+                 }
+            
+             </remarks>
+             <param name="id">O identificador único (GUID ou string) do produto que será alterado.</param>
+             <param name="produto">O objeto contendo os novos dados do produto.</param>
+             <returns>Um objeto indicando o status do sucesso da operação.</returns>
+             <response code="200">Produto alterado com sucesso no banco de dados.</response>
+             <response code="404">Se o ID fornecido não corresponder a nenhum produto cadastrado.</response>
+             <response code="400">Se o formato dos dados enviados no JSON for inválido.</response>
+        </member>
+        <member name="M:APIMongoDB.Controllers.v2.ProdutosController.Excluir(System.String)">
+             <summary>
+             Remove permanentemente um produto do sistema pelo ID.
+             </summary>
+             <remarks>
+             Exemplo de requisição:
+             
+                 DELETE /api/produtos/64f1a2b3c4d5e6f7a8b9c0d1
+            
+             </remarks>
+             <param name="id">O identificador único (GUID ou string) do produto que será excluído.</param>
+             <returns>Um objeto indicando o status do sucesso da exclusão.</returns>
+             <response code="200">Produto removido com sucesso do banco de dados.</response>
+             <response code="404">Se o ID fornecido não corresponder a nenhum produto cadastrado.</response>
+        </member>
+        <member name="P:APIMongoDB.Models.CriarPedidoInputModel.ClienteId">
+            <summary>
+            Identificador único do cliente que está realizando a compra.
+            </summary>
+            <example>64f1a2b3c4d5e6f7a8b9c0a1</example>
+        </member>
+        <member name="P:APIMongoDB.Models.CriarPedidoInputModel.Itens">
+            <summary>
+            Lista de produtos incluídos no pedido.
+            </summary>
+        </member>
+        <member name="P:APIMongoDB.Models.CriarPedidoItemInputModel.ProdutoId">
+            <summary>
+            ID do produto cadastrado no banco.
+            </summary>
+            <example>64f1a2b3c4d5e6f7a8b9c0d1</example>
+        </member>
+        <member name="P:APIMongoDB.Models.CriarPedidoItemInputModel.Quantidade">
+            <summary>
+            Quantidade de itens desejada.
+            </summary>
+            <example>2</example>
         </member>
         <member name="T:APIMongoDB.WeatherForecast">
             <summary>

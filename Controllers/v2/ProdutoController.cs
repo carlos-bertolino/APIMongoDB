@@ -22,6 +22,12 @@ public class ProdutosController : ControllerBase
 
 
     // GET: api/produtos
+    /// <summary>
+    /// Lista de todos os produtos
+    /// </summary>
+    /// <returns>Listagem de todos os produtos cadastrados.</returns>
+    /// <response code="200">Retorna a lista de  produtos cadastrados.</response>
+    /// <response code="404">Se o produto não for encontrado.</response>
     [HttpGet]
     public async Task<IActionResult> Listar()
     {
@@ -97,8 +103,31 @@ public class ProdutosController : ControllerBase
 
 
     // PUT: api/produtos/{id}
-
+    /// <summary>
+    /// Atualiza as informações de um produto existente pelo ID.
+    /// </summary>
+    /// <remarks>
+    /// Exemplo de JSON para enviar no corpo da requisição (Body):
+    /// 
+    ///     PUT /api/produtos/64f1a2b3c4d5e6f7a8b9c0d1
+    ///     {
+    ///        "nome": "Teclado Mecânico RGB (Atualizado)",
+    ///        "preco": 389.90,
+    ///        "estoque": 25,
+    ///        "descricao": "Teclado mecânico com switches novos e iluminação customizável."
+    ///     }
+    ///
+    /// </remarks>
+    /// <param name="id">O identificador único (GUID ou string) do produto que será alterado.</param>
+    /// <param name="produto">O objeto contendo os novos dados do produto.</param>
+    /// <returns>Um objeto indicando o status do sucesso da operação.</returns>
+    /// <response code="200">Produto alterado com sucesso no banco de dados.</response>
+    /// <response code="404">Se o ID fornecido não corresponder a nenhum produto cadastrado.</response>
+    /// <response code="400">Se o formato dos dados enviados no JSON for inválido.</response>
     [HttpPut("{id}")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
     public async Task<IActionResult> Alterar(
     string id,
     Produto produto)
@@ -123,8 +152,22 @@ public class ProdutosController : ControllerBase
 
 
     // DELETE: api/produtos/{id}
-
+    /// <summary>
+    /// Remove permanentemente um produto do sistema pelo ID.
+    /// </summary>
+    /// <remarks>
+    /// Exemplo de requisição:
+    /// 
+    ///     DELETE /api/produtos/64f1a2b3c4d5e6f7a8b9c0d1
+    ///
+    /// </remarks>
+    /// <param name="id">O identificador único (GUID ou string) do produto que será excluído.</param>
+    /// <returns>Um objeto indicando o status do sucesso da exclusão.</returns>
+    /// <response code="200">Produto removido com sucesso do banco de dados.</response>
+    /// <response code="404">Se o ID fornecido não corresponder a nenhum produto cadastrado.</response>
     [HttpDelete("{id}")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<IActionResult> Excluir(string id)
     {
         var excluido = await _service.Excluir(id);
@@ -144,4 +187,5 @@ public class ProdutosController : ControllerBase
             mensagem = "Produto excluído com sucesso."
         });
     }
+
 }
