@@ -1,12 +1,15 @@
-﻿using APIMongoDB.Models;
+﻿
+using APIMongoDB.Models;
 using APIMongoDB.Services;
+using global::APIMongoDB.Models;
+using global::APIMongoDB.Services;
 using Microsoft.AspNetCore.Mvc;
 
 
-namespace APIMongoDB.Controllers;
+namespace APIMongoDB.Controllers.v2;
 
 [ApiController]
-[Route("api/produtos")]
+[Route("/api/v2/produtos")]
 public class ProdutosController : ControllerBase
 {
     private readonly ProdutoService _service;

@@ -41,3 +41,8 @@ C:\Users\carlos\source\repos\APIMongoDB\obj\Debug\net8.0\APIMongoDB.genruntimeco
 C:\Users\carlos\source\repos\APIMongoDB\obj\Debug\net8.0\ref\APIMongoDB.dll
 C:\Users\carlos\source\repos\APIMongoDB\bin\Debug\net8.0\APIMongoDB.xml
 C:\Users\carlos\source\repos\APIMongoDB\obj\Debug\net8.0\APIMongoDB.xml
+C:\Users\carlos\source\repos\APIMongoDB\obj\Debug\net8.0\APIMongoDB.sourcelink.json
+C:\Users\carlos\source\repos\APIMongoDB\bin\Debug\net8.0\Asp.Versioning.Abstractions.dll
+C:\Users\carlos\source\repos\APIMongoDB\bin\Debug\net8.0\Asp.Versioning.Http.dll
+C:\Users\carlos\source\repos\APIMongoDB\bin\Debug\net8.0\Asp.Versioning.Mvc.dll
+C:\Users\carlos\source\repos\APIMongoDB\bin\Debug\net8.0\Asp.Versioning.Mvc.ApiExplorer.dll
