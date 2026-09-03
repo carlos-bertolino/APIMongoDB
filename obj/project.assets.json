@@ -1183,6 +1183,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Asp.Versioning.Http >= 8.0.0",
       "Asp.Versioning.Mvc >= 8.0.0",
       "Asp.Versioning.Mvc.ApiExplorer >= 8.0.0",
       "MongoDB.Driver >= 3.11.1",
@@ -1241,6 +1242,10 @@
         "framework": "net8.0",
         "targetAlias": "net8.0",
         "dependencies": {
+          "Asp.Versioning.Http": {
+            "target": "Package",
+            "version": "[8.0.0, )"
+          },
           "Asp.Versioning.Mvc": {
             "target": "Package",
             "version": "[8.0.0, )"

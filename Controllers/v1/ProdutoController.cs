@@ -1,12 +1,16 @@
 ﻿using APIMongoDB.Models;
 using APIMongoDB.Services;
 using Microsoft.AspNetCore.Mvc;
+using Asp.Versioning;
+
 
 
 namespace APIMongoDB.Controllers.v1;
 
 [ApiController]
-[Route("api/v1/produtos")]
+[ApiVersion("1.0")] // Vincula esta controller à V1
+[Route("api/v{version:apiVersion}/[controller]")]
+//[Route("api/v1/produtos")]
 public class ProdutosController : ControllerBase
 {
     private readonly ProdutoService _service;

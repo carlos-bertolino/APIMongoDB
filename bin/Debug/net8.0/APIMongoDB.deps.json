@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "APIMongoDB/1.0.0": {
         "dependencies": {
+          "Asp.Versioning.Http": "8.0.0",
           "Asp.Versioning.Mvc": "8.0.0",
           "Asp.Versioning.Mvc.ApiExplorer": "8.0.0",
           "MongoDB.Driver": "3.11.1",

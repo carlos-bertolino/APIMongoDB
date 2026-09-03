@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\carlos\\source\\repos\\APIMongoDB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FD37AF56-6DF7-CC86-E9BE-0A506D7B0C5B}|APIMongoDB.csproj|c:\\users\\carlos\\source\\repos\\apimongodb\\controllers\\v1\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD37AF56-6DF7-CC86-E9BE-0A506D7B0C5B}|APIMongoDB.csproj|solutionrelative:controllers\\v1\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FD37AF56-6DF7-CC86-E9BE-0A506D7B0C5B}|APIMongoDB.csproj|c:\\users\\carlos\\source\\repos\\apimongodb\\controllers\\v2\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD37AF56-6DF7-CC86-E9BE-0A506D7B0C5B}|APIMongoDB.csproj|solutionrelative:controllers\\v2\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD37AF56-6DF7-CC86-E9BE-0A506D7B0C5B}|APIMongoDB.csproj|c:\\users\\carlos\\source\\repos\\apimongodb\\controllers\\v1\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD37AF56-6DF7-CC86-E9BE-0A506D7B0C5B}|APIMongoDB.csproj|solutionrelative:controllers\\v1\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FD37AF56-6DF7-CC86-E9BE-0A506D7B0C5B}|APIMongoDB.csproj|c:\\users\\carlos\\source\\repos\\apimongodb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,17 +46,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ProdutoController.cs",
               "DocumentMoniker": "C:\\Users\\carlos\\source\\repos\\APIMongoDB\\Controllers\\v2\\ProdutoController.cs",
               "RelativeDocumentMoniker": "Controllers\\v2\\ProdutoController.cs",
               "ToolTip": "C:\\Users\\carlos\\source\\repos\\APIMongoDB\\Controllers\\v2\\ProdutoController.cs",
               "RelativeToolTip": "Controllers\\v2\\ProdutoController.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAcwAsAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-03T09:38:15.691Z",
               "EditorCaption": ""
@@ -71,8 +71,7 @@
               "RelativeToolTip": "README.md",
               "ViewState": "AgIAABsAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-09-02T19:56:40.862Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-02T19:56:40.862Z"
             },
             {
               "$type": "Document",
@@ -96,18 +95,17 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T12:53:17.438Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-02T12:53:17.438Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProdutoController.cs",
               "DocumentMoniker": "C:\\Users\\carlos\\source\\repos\\APIMongoDB\\Controllers\\v1\\ProdutoController.cs",
               "RelativeDocumentMoniker": "Controllers\\v1\\ProdutoController.cs",
               "ToolTip": "C:\\Users\\carlos\\source\\repos\\APIMongoDB\\Controllers\\v1\\ProdutoController.cs",
               "RelativeToolTip": "Controllers\\v1\\ProdutoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-02T12:50:37.62Z",
               "EditorCaption": ""
