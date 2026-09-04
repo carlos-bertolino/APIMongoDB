@@ -19,7 +19,7 @@ Manutenção no cadastro de Produtos:
 #### Listar todos os produtos
 
 ```http
-  GET /api/produtos
+  GET /api/$version/produtos
 ```
 
 | Parameter | Type     | Description                |
@@ -29,7 +29,7 @@ Manutenção no cadastro de Produtos:
 #### Consultar um produto especifico
 
 ```http
-  GET /api/produtos/${id}
+  GET /api/$version/produtos/${id}
 ```
 
 | Parameter | Type     | Description                       |
